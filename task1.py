@@ -29,7 +29,7 @@ result = clf.predict(X_testing)
 print(classification_report(Y_testing,result))
 print(confusion_matrix(Y_testing,result))
 
-"""Ekkinhsh erwthmatos B"""
+"""Begin task B"""
 X_training = np.append(X_training,Y_training,axis=1)
 
 size = int(np.size(X_training[:,8]) * 0.33)
@@ -45,7 +45,7 @@ Y_training = X_training[:,11]
 Y_training = Y_training.astype(int)
 Y_training = np.reshape(Y_training,[np.size(Y_training),1])
 X_training = np.delete(X_training,11,1)
-"""Me8odos 1"""
+"""Method 1"""
 
 X_training_1 = np.delete(X_training,8,1)
 X_testing_1 = np.delete(X_testing,8,1)
@@ -58,9 +58,9 @@ result = clf.predict(X_testing_1)
 print(classification_report(Y_testing,result))
 print(confusion_matrix(Y_testing,result))
 
-"""Telos me8odou 1"""
+"""End of method 1"""
 
-"""Me8odos 2"""
+"""Method 2"""
 
 X_training_2 = np.copy(X_training)
 SUM = 0
@@ -84,9 +84,9 @@ result = clf.predict(X_testing)
 print(classification_report(Y_testing,result))
 print(confusion_matrix(Y_testing,result))
 
-"""Telos me8odou 2"""
+"""End of method 2"""
 
-"""Me8odos 3"""
+"""Method 3"""
 
 X_training_3 = np.copy(X_training)
 
@@ -127,9 +127,9 @@ result = clf.predict(X_testing)
 print(classification_report(Y_testing,result))
 print(confusion_matrix(Y_testing,result))
 
-"""Telos me8odou 3"""
+"""End of method 3"""
 
-"""Me8odos 4"""
+"""Method 4"""
 
 X_training_4 = np.copy(X_training)
 
@@ -204,4 +204,4 @@ result = clf.predict(X_testing)
 print(classification_report(Y_testing,result))
 print(confusion_matrix(Y_testing,result))
 
-"""Telos me8odou 4"""
+"""End of method 4"""
