@@ -1,4 +1,4 @@
-# data-mining
+# Data Mining Project
 This project was created as part of "Data Mining" subject in Computer Engineering &amp; Informatics Department (CEID) of University of Patras. It involves the use of 2 ML models, namely Support Machine Vectors (SVM) and Artificial Neural Networks (ANN). The project was implemented using `Python`.
 
 ## Support Machine Vectors
